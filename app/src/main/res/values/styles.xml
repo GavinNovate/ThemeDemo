@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- 初始主题，启动界面 -->
+    <style name="AppTheme.Start" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 蓝色主题 -->
+    <style name="AppTheme.Blue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 红色主题 -->
+    <style name="AppTheme.Red" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#E51C23</item>
+        <item name="colorPrimaryDark">#C41411</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 绿色主题 -->
+    <style name="AppTheme.Green" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#259B24</item>
+        <item name="colorPrimaryDark">#056F00</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
